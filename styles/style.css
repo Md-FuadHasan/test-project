@@ -1,0 +1,34 @@
+/* reset code and common code starts here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+}
+html{
+    background-color: #fafafa;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size:  7rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    color: tomato;
+/* font-family: 'Birthstone', cursive; */
+font-family: 'Roboto', sans-serif;
+}
+.tag-line{
+    font-family: 'Birthstone', cursive;
+    font-size:4rem;
+    text-transform: capitalize;
+    color: darkblue;
+    position:absolute;
+    top: 60px;
+    letter-spacing: .4rem;
+}
+/* reset code and common code ends
+ here  */
