@@ -12,23 +12,40 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-
+section{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #05053d;
+}
 h1{
     font-size:  7rem;
     font-weight: 700;
     letter-spacing: 1rem;
-    color: tomato;
+    color: rgb(172, 54, 33);
 /* font-family: 'Birthstone', cursive; */
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-.tag-line{
+img{
+    width: 100%;
+    height: 100%;
+}
+/* reset code and common code ends
+ here  */
+ .tag-line{
     font-family: 'Birthstone', cursive;
     font-size:4rem;
     text-transform: capitalize;
-    color: darkblue;
+    color: rgb(252, 255, 91);
     position:absolute;
     top: 60px;
     letter-spacing: .4rem;
 }
-/* reset code and common code ends
- here  */
+ .image{
+     width: 350px;
+     height: 300px;
+     position: relative;
+     top: 50px;
+ }
